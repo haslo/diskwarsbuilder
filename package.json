@@ -34,5 +34,12 @@
     "webpack": "^2.3.1",
     "webpack-dev-server": "^2.4.2",
     "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free-brands": "^5.0.12",
+    "@fortawesome/fontawesome-pro-light": "^5.0.12",
+    "@fortawesome/fontawesome-pro-regular": "^5.0.12",
+    "@fortawesome/fontawesome-pro-solid": "^5.0.12"
   }
 }

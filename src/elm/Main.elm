@@ -2,6 +2,7 @@ module Main exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing ( onClick )
+import FontAwesome as FA
 
 -- component import example
 import Components.Hello exposing ( hello )
@@ -43,7 +44,7 @@ view model =
           , hello model                                                                     -- ext 'hello' component (takes 'model' as arg)
           , p [] [ text ( "Elm Webpack Starter" ) ]
           , button [ class "btn btn-primary btn-lg", onClick Increment ] [                  -- click handler
-            span[ class "glyphicon glyphicon-star" ][]                                      -- glyphicon
+            span[][ FA.icon FA.star ]
             , span[][ text "FTW!" ]
           ]
         ]
